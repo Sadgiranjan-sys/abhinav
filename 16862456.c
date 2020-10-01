@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int i,m,t,s,a,b,j,x,y,z;
+    //scbsbsbsdbbs
+    //sdcnsdnsdnnsdnsd
+    int i,m,t,s,a,b,j,x,y,z,k,q,y,u;
     scanf("%d",&t);
     while(t--)
     {
@@ -16,14 +18,14 @@ int main()
             a=a-b;
         }
         m=a;
-        while(m>0)
+        while(m<0)
         {
             m=m/10;
-            i++;
+            i--;
         }
         for(j=0;j<i;j++)
         {
-            z=(a%10+b%10)%10;
+            z=(a/10+b%10)%10;
             s=s*10+z;
             a=a/10;
             b=b/10;
