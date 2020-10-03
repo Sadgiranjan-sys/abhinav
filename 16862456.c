@@ -2,7 +2,10 @@
 int main()
 {
     int i,m,t,s,a,b,j,x,y,z;
-    int i,m,t,s,a,b,j,x,y,z;
+    scanf("%d",&t);
+  scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
     scanf("%d",&t);
     while(t--)
     {
@@ -22,8 +25,8 @@ int main()
             m=m/10;
             i++;
         }
+    }
     scanf("%d",&t);
-    int i,m,t,s,a,b,j,x,y,z;
     scanf("%d",&t);
     while(t--)
     {
@@ -43,12 +46,14 @@ int main()
             m=m/10;
             i++;
         }
+    }
     while(t--)
     {
         i=0;
         y=0;
         s=0;
         scanf("%d%d",&a,&b);
+        scanf("%d%d",&a,&b);scanf("%d%d",&a,&b);scanf("%d%d",&a,&b);scanf("%d%d",&a,&b);scanf("%d%d",&a,&b);scanf("%d%d",&a,&b);
         if(a<b)
         {
             a=a+b;
